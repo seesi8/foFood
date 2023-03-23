@@ -1,0 +1,90 @@
+.title {
+    text-align: center;
+    position: relative;
+    padding: 1vh;
+    margin: 0;
+    z-index: 2;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url("/loginBackground.jpg");
+}
+
+.imgC {
+    z-index: 0;
+    position: absolute;
+    width: 15rem;
+    height: 25rem;
+    border: 8px rgba(255, 255, 255, 0.332) solid;
+    object-position: 50px 30px;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.imgC:hover {
+    transition: all 0.2s ease-in-out;
+    scale: 1.02;
+}
+
+.img1C {
+    /* waffle */
+    left: 10%;
+    top: 10%;
+    transform: rotate(-20deg);
+}
+
+.img2C {
+    /* burger */
+    left: 55%;
+    transform: rotate(10deg);
+    top: 6%;
+}
+
+.img3C {
+    /* edamame */
+    left: 30%;
+    transform: rotate(20deg);
+    bottom: 10%;
+}
+
+.img4C {
+    /* asian */
+    right: 5%;
+    transform: rotate(-10deg);
+
+    bottom: 10%;
+}
+
+.googleImageContainer {
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+}
+
+.googleSignIn {
+    z-index: 5;
+    position: relative;
+    border: none;
+    display: inline-flex;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 40vw;
+    background-color: rgba(255, 255, 255, 0.872);
+}
+
+.googleSignIn > h2 {
+    margin: 0rem;
+}
+
+.signInButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

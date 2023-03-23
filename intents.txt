@@ -1,0 +1,11 @@
+Font: Rubik
+Spacing: .5rem
+Navbars: 2.5rem
+
+H1: 3rem
+H2: 2rem
+H3: 1rem
+
+H1 moving: 3vw
+H2 moving: 2vw
+H3 moving: 1vw
